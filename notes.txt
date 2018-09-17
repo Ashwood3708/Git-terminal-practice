@@ -1,0 +1,28 @@
+Git shell notes
+
+Log in:
+git config  --global user.name "Shadowgasher1"
+git config  --global user.email  "aashwood@aggies.ncat.edu"
+
+Download from git server:
+//go to location of wanted storage
+git clone (https:// address)
+
+Upload files:
+git add *
+git commit -m "message"
+git push origin master
+
+
+Keeps:
+git pull - merge changes on the server to your working directory
+git status - List files changed and those you still need to add or commit
+git checkout -b (branchname) - create new branch and travel there
+git checkout (branchname)- switch from one brach to another
+git branch - list all branches
+git branch -d (branchname) - delete branch
+git push --all origin - push all branches
+git merge (branchname) - merge branch with active branch
+git checkout -- (filename) - for mistakes, replace file with last save in head
+git fetch origin - drop all local changes and fetch last save from server
+git reset --hard origin/master - drop all local changes and fetch last save from server
